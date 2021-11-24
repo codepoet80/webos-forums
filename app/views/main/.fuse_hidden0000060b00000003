@@ -1,0 +1,107 @@
+<!-- TODO: replace the contents of this file with your own html -->
+<!--	<div id="search-bar" class="search-bar-top">
+		<div class="filter-field-container filter-field-container-height" x-mojo-focus-highlight="true">
+			<div class="filter-field-wrapper">
+				<div class="palm-row single">
+					<div class="palm-row-wrapper textfield-group">
+						<div class="title">
+							<div id="search-button" class="icon right submit" style="visibility:hidden;position:relative;z-index:1" x-mojo-touch-feedback="immediate"></div>
+							<div id="in-fa-ma-search-text" x-mojo-element="TextField" class="search-field"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="search-bar-spacer" class="palm-header-spacer"></div>-->
+
+<div class="palm-scene palm-dark">
+	<div id="search-bar" class="search-bar-top" style="display:none;">
+		<div class="filter-field-container filter-field-container-height" x-mojo-focus-highlight="true">
+			<div class="filter-field-wrapper">
+				<div class="palm-row single">
+					<div class="palm-row-wrapper textfield-group">
+						<div class="title">
+							<div id="search-button" class="icon right submit disabled" x-mojo-tap-highlight="immediate">&nbsp;</div>
+							<div id="search-field" x-mojo-element="TextField" class="search-field"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="palm-header-spacer" style="display:none;"></div>
+<div id="fb-root"></div>
+<table class="palm-divider labeled">
+	<tr>
+		<td class="left"></td>
+		<td class="label light">
+			my forums
+		</td>
+		<td class="right"></td>
+	</tr>
+</table>
+<div id="userForumsList" x-mojo-element="List" class="forums-list"></div>
+<table class="palm-divider labeled" style="display:none;">
+	<tr>
+		<td class="left"></td>
+		<td class="label light">
+			new forums
+		</td>
+		<td class="right"></td>
+	</tr>
+</table>
+<div id="gallery-new-forums" class="hidden" style="display:none;">
+	<div id="hScroller" class="hScroller" x-mojo-element="Scroller">
+    	<div id="galleryScrollerContainer" class="scrollerContainerNewForums">
+    	</div>
+	</div>
+</div>
+	<div id="gallery-error" class="palm-row single gallery-new-forums-error-wrapper hidden" x-mojo-tap-highlight="momentary">
+		<div class="palm-row-wrapper">
+ 			<div class="error-icon"></div>
+			<div id="gallery-error-message" class="message-text">Forums Gallery Unavailable. Tap to Retry.</div>
+		</div>
+	</div>
+
+<!--<div id="gallery-error" class="gallery-new-forums-error-wrapper" x-mojo-touch-feedback="momentary">
+		<div class="error-icon"></div>
+		<div id="gallery-error-message" class="message-text">Forums Gallery Unavailable. Tap to Retry.</div>
+</div>-->
+<div id="gallery-loading" class="gallery-new-forums-loading-wrapper" style="display:none;">
+	<div id="activity-spinner" x-mojo-element="Spinner" class="spinner"></div>
+	<div id="gallery-error-message" class="message-text">Loading Forums Gallery...</div>
+</div>
+<table class="palm-divider labeled" style="display:none;">
+	<tr>
+		<td class="left"></td>
+		<td class="label light">
+			explore
+		</td>
+		<td class="right"></td>
+	</tr>
+</table>
+<div id="menuList" class="palm-list" style="display:none;">
+	<div id="galleryButton" class="palm-row first" x-mojo-tap-highlight="momentary">
+		<div class="palm-row-wrapper">
+			<div class="world-silver"></div>
+			<div id="forumsCounter" class="forum-count-wrapper">
+				<div id="forum_count" class="forum-count"></div>
+			</div>
+			<div id="galleryButton-error-icon" class="warning-icon hidden"></div>
+			<div id="activity-spinner" x-mojo-element="Spinner" class="gallery-spinner"></div>
+  			<div class="title truncating-text">Available Forums</div>
+ 		</div>
+	</div>
+	<div id="historyButton" class="palm-row last" x-mojo-tap-highlight="momentary">
+		<div class="palm-row-wrapper">
+			<div class="clock-silver"></div>
+ 			<div class="title truncating-text">Visited Forums</div>
+ 		</div>
+	</div>
+</div>
+<!--
+<div class="fade-bottom" x-mojo-scroll-fade="bottom"></div>
+-->
+<div id="debug"></div>
+</div>

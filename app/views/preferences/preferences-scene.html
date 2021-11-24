@@ -1,0 +1,117 @@
+<div class="palm-page-header">
+    <div class="palm-page-header-wrapper">
+        <div class="icon news-mini-icon"></div>
+        <div class="title">Forums Preferences</div>
+    </div>
+</div>
+
+<div class="palm-group">
+    <div class="palm-group-title"><span>General</span></div>
+        <div class="palm-list">
+ <!--        	<div class="palm-row first">
+        		<div class="palm-row-wrapper">
+                 		<div x-mojo-element="ListSelector" id="defaultViewSelector"></div>
+				</div>
+			</div>-->
+        	<div class="palm-row multi-line first">
+        		<div class="palm-row-wrapper">
+                       <div x-mojo-element="ToggleButton" id="spreadWordToggle"></div>
+                       <div class="title left">Spread the Word</div>
+					   <div class="palm-info-text">Activating this option, the app will append a link of the app to every message you post in a forum.<br><br></div>
+				</div>
+			</div>
+        	<div class="palm-row">
+        		<div class="palm-row-wrapper">
+                       <div x-mojo-element="ToggleButton" id="darkThemeToggle"></div>
+                       <div class="title left">Dark Theme</div>
+				</div>
+			</div>
+         	<div class="palm-row">
+        		<div class="palm-row-wrapper">
+                  		<div x-mojo-element="ListSelector" id="fontSizeSelector"></div>
+				</div>
+			</div>
+        	<div class="palm-row multi-line last">
+        		<div class="palm-row-wrapper">
+                       <div x-mojo-element="ToggleButton" id="shakeToRefreshToggle"></div>
+                       <div class="title left">Shake to Refresh</div>
+					   <div class="palm-info-text">Activating this option, the thread view will update automatically if you shake the device.</div>
+				</div>
+			</div>
+        </div>
+    </div>
+</div>
+
+<div class="palm-group">
+    <div class="palm-group-title"><span>Forums</span></div>
+           <div class="palm-list">
+         	<div class="palm-row first">
+        		<div class="palm-row-wrapper">
+                 		<div x-mojo-element="ListSelector" id="defaultForumViewSelector"></div>
+				</div>
+			</div>
+         	<div class="palm-row">
+        		<div class="palm-row-wrapper">
+                  		<div x-mojo-element="ListSelector" id="autoLoginSelector"></div>
+				</div>
+			</div>
+         	<div class="palm-row last">
+				<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="false">
+					<div class="title">
+						<div class="label right" id="DescriptionLabel">New topics to show</div>
+		           		<div id="textFieldNewTopicsCount" name="textFieldNewTopicsCount" x-mojo-element="TextField" align="left"></div>
+					</div>
+			    </div>
+			</div>
+        </div>
+    </div>
+
+<div class="palm-group">
+    <div class="palm-group-title"><span>Debug</span></div>
+        <div class="palm-list">
+         	<div class="palm-row first">
+        		<div class="palm-row-wrapper">
+                 		<div class="palm-info-text">These options are not sticky. They will turn themselves back off when you close the app. This is for performance and security reasons.</div>
+				</div>
+			</div>
+        	<div class="palm-row multi-line">
+        		<div class="palm-row-wrapper">
+                       <div x-mojo-element="ToggleButton" id="debugToggle"></div>
+                       <div class="title left">Detailed logging</div>
+					   <div class="palm-info-text">Activating this option, the app will write detailed logging info for troubleshooting problems. It will slow down the app in some places - some more than others.<br><br></div>
+				</div>
+			</div>
+        	<div class="palm-row multi-line last">
+        		<div class="palm-row-wrapper">
+                       <div x-mojo-element="ToggleButton" id="logPwdToggle"></div>
+                       <div class="title left">Log password</div>
+					   <div class="palm-info-text">Activating this option, the app will write your forum password to the log in PLAIN TEXT (not encrypted) for troubleshooting login problems. It will NOT transmit your password over the network in unencrypted, only to the system message log.  Do not enable this unless you know you need to, or just have no fear. :)<br><br></div>
+				</div>
+			</div>
+        </div>
+    </div>
+</div>
+
+<div class="palm-group">
+    <div class="palm-group-title"><span>Twitter</span></div>
+           <div class="palm-list">
+           	<div id="authorization-instructions" class="palm-row single">
+           		<div class="palm-row-wrapper">
+ <div class="palm-info-text">
+<strong>Authorization Instructions:</strong><br /><br />
+  <strong>1</strong>. A Browser will open <strong>Twitter.com</strong>. Sign-in with your Twitter account <br /><br />
+  <strong>2</strong>. Tap on <strong>ALLOW</strong> to complete authorization.
+</div>
+        		</div>
+			</div>
+         	<div id="username-field" class="palm-row single" style="display:none;">
+        		<div class="palm-row-wrapper" >
+        			<div class="label right" id="twitterUserLabel">account</div>
+					<div id="username" class="title"></div>
+  				</div>
+			</div>
+        			<div id="authorize_button" x-mojo-element="Button" style="margin-left: 10px; margin-right: 10px;"></div>
+        </div>
+    </div>
+
+</div>

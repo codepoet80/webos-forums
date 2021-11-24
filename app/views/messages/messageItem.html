@@ -1,0 +1,12 @@
+<div class="palm-row #{-read} email-entry" id="#{msg_id}" x-mojo-tap-highlight="momentary">
+	<div class="palm-row-wrapper">
+		
+		#{-msg_stateFormatted}
+
+		<div name="sender" class="list-sender">#{msg_from}</div>
+		<div name="recipients" class="list-sender hidden">#{msg_toFormatted}</div>
+		<div class="list-datestamp">#{-sent_dateFormatted}</div>
+		<div class="list-subject">#{-msg_subject}</div>
+		<div class="list-preview">#{-short_content}</div>
+	</div>
+</div>

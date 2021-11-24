@@ -1,0 +1,82 @@
+<!-- TODO: replace the contents of this file with your own html -->
+<div id="scrim" class="palm-scrim">
+  <div id="activity-spinner" x-mojo-element="Spinner"></div>
+</div>
+<div id="scrim-minimized" class="white-scrim">
+	<!--<img id="forum-image" class="large-icon" src="images/bundledforums/precentral.png"/>-->
+	<!--<div id="forum-name" class="fullscreen-message">Forum Name</div>-->
+	<div class="stack-image-wrapper">
+			<img id="forum-image-small" class="stack-image" src="" />
+			<div class="stack-overlay"></div>
+		</div>
+</div>
+<div id="main">
+	<div id="postView">
+		<div class="palm-page-header multi-line">
+		<div class="palm-page-header-wrapper">
+		    <div id="scene-message" class="title left"></div>                         
+			<div id="topic-title" class="subtitle"></div>
+		</div>
+		</div>
+	</div>
+	
+	<div id="emailView">
+		<div class="palm-list">
+			<div class="palm-row first postTitle" id="postTitle">
+				<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="false">				
+					<div class="title">
+						<!--<div class="label" id="DescriptionLabel">Description</div>-->
+						<div class='label left' x-mojo-loc=''>From:</div>
+		           		<div id="textFieldSender" name="textFieldSender" align="left"></div>
+					</div>	
+			    </div>
+			</div>
+			<div class="palm-row last postTitle" id="postTitle">
+				<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="false">				
+					<div class="title">
+						<!--<div class="label" id="DescriptionLabel">Description</div>-->
+						<div class='label left' x-mojo-loc=''>To:</div>
+		           		<div id="textFieldRecipient" name="textFieldRecipient" x-mojo-element="TextField" align="left" ></div>
+					</div>	
+			    </div>
+			</div>
+		</div>
+	</div>
+	
+		<!--<div class="palm-list">
+			<div class="palm-row single postTitle" id="postTitle">
+				<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="false">				
+					<div class="title">
+		           		<div id="textFieldTopic" name="textFieldTopic" x-mojo-element="TextField" align="left" ></div>
+					</div>	
+			    </div>
+			</div>
+		</div>
+		<div class="palm-divider solid"></div>-->
+
+<!--			<div class="palm-row single postContent" id="postContent">
+				<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="false">				
+					<div class="title">
+		           		<div id="textFieldContent" name="textFieldContent" class="textFieldContent" x-mojo-element="TextField" align="left" ></div>
+					</div>	
+			    </div>
+			</div>
+	-->		
+<div class="palm-list">
+			<div class='palm-row single'>
+  				<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="false">
+     			<div class="title email-subject" id="emailSubjectField">                          
+       				<div x-mojo-element="TextField" name="textField" id="emailSubject" class="email-subject-textfield"></div>
+     			</div>
+   				</div>
+   			</div>	
+			<div class="compose-wrapper palm-row single">
+				<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="false">	
+    			<div class="title email-compose">                          
+			           		<div id="textFieldContent" class="email-compose-text" name="textFieldContent" x-mojo-element="TextField" align="left" ></div>
+							</div>
+			    </div>
+			</div>
+
+		</div>
+		</div>

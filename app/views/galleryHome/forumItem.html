@@ -1,0 +1,29 @@
+<div id="#{forum_id}" class="palm-row forum-entry">
+	<div class="palm-row-wrapper">
+		<div class="forum-image-wrapper">
+			<img class="forum-image" src="#{-icon_url}" />
+			<img class="forum-overlay" width="64px" height="64px" src="images/image-overlay.png" />
+		</div>
+		<div class="forum-balloon #{new_postFormatted}" x-mojo-tap-highlight="momentary">
+			<div class="forum-balloon-wrapper">
+				<div class="title" id="historyBageContainer#{topic_id}">
+					<div class="forum-name #{new_postFormatted}">
+						<div class="flags-container">
+						<img src="images/secure-lock.png" class="forum-closed-image #{new_postFormatted} #{is_closedFormatted}"/>
+						<img src="images/star-silver.png" class="forum-subscribed-image #{new_postFormatted} #{is_subscribedFormatted}"/>
+							<!--<div class="unread-count-container {new_postFormatted}">
+								<div class="unread-count-wrapper">
+									{unread_count}
+								</div>
+							</div>-->
+						</div>
+							#{category_name}
+						</div>
+					<div class="forum-text">
+						#{-description}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

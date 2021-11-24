@@ -1,0 +1,60 @@
+<!-- TODO: replace the contents of this file with your own html -->
+<div id="scrim" class="palm-scrim">
+  <div id="activity-spinner" x-mojo-element="Spinner"></div>
+	<div id="scrim-message-wrapper" class="fullscreen-message-wrapper hidden">
+  		<div id="scrim-message" class="fullscreen-message">Closing Session...</div>
+	</div>
+</div>
+<div id="scrim-minimized" class="white-scrim">
+	<!--<img id="forum-image" class="large-icon" src="images/bundledforums/precentral.png"/>-->
+	<!--<div id="forum-name" class="fullscreen-message">Forum Name</div>-->
+	<div class="stack-image-wrapper">
+			<img id="forum-image-small" class="stack-image" src="" />
+			<div class="stack-overlay"></div>
+		</div>
+</div>
+<div id="main">
+<div class="headerBackground multiline">
+	<div id="header" class="palm-page-header multi-line forums-header" x-mojo-tap-highlight="immediate">
+		<div class="forum-header-wrapper">
+			<div id="header_button" class="child-header-button truncating-text" x-mojo-tap-highlight="immediate"></div>
+		</div>
+		<div class ="forums-logo-wrapper">
+			<img src="images/search-icon-header.png" class="forums-logo"/>
+		</div>
+	</div>
+	<div class="forum-name-caption" x-mojo-tap-highlight="immediate">
+		<div id="forum_name" class="forum-name truncating-text">Precentral Forums</div>
+	</div>
+	<div id="topicCounter" class="topic-count-wrapper hidden">
+		<div id="forum_count" class="topic-count"></div>
+	</div>
+	<div id="closedFlag" class ="topic-subscribed-wrapper hidden">
+		<img src="images/secure-lock.png" class="topic-subscribed-image"/>
+	</div>
+	<div id="subsbribedFlag" class ="topic-subscribed-wrapper hidden">
+		<img src="images/star-silver.png" class="topic-subscribed-image"/>
+	</div>
+</div>
+	<div id="search-bar" class="hidable-search-bar">
+		<div class="filter-field-container filter-field-container-height" x-mojo-focus-highlight="true">
+			<div class="filter-field-wrapper">
+				
+				<div class="palm-row single">
+					<div class="palm-row-wrapper textfield-group">
+						<div class="title">
+							<!-- show the submit button when there are one or more chars in the search field, and when the user taps the submit button it should submit the search (like hitting enter) -->
+							<div id="search-button" class="icon right submit disabled" x-mojo-touch-feedback="immediate"></div>
+							<div id="search-field" x-mojo-element="TextField" class="search-field"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="palm-header-spacer multiline"></div>
+<div id="topics">
+	<div id="topicList" x-mojo-element="List"></div>
+</div>
+</div>

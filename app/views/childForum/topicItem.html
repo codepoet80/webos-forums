@@ -1,0 +1,32 @@
+<div id="#{topic_id}" class="palm-row topic-entry #{new_postFormatted}" x-mojo-tap-highlight="momentary">
+	<div class="palm-row-wrapper">
+		<div class="image-wrapper">
+			<!--<img class="avatar-location" width="34px" height="34px" src="{icon_url}" />
+			<img class="avatar-overlay" width="42px" height="42px" src="images/list-view-avatar-frame.png" />-->
+<div class="edit-view-photo-container" title="author_avatar" x-mojo-tap-highlight="momentary">
+	<div class="edit-view-list-frame" title="author_avatar"></div>
+<img class="edit-view-list-pic-square" title="author_avatar" src="#{icon_url}" />
+<div class="edit-view-shill-div" title="author_avatar"></div>                
+</div>		
+		</div>
+		<div class="post-wrapper">
+					<div class="unread-count-container">
+						<div class="unread-count-wrapper">
+							#{reply_number}
+						</div>
+					</div>
+		<img src="images/secure-lock.png" class="topic-closed-image #{is_closedFormatted}"/>
+		<img src="images/star-silver.png" class="topic-subscribed-image #{is_subscribedFormatted}"/>
+<div class="topic-author">#{topic_author_name}</div>
+<div class="topic-last-reply">#{last_reply_timeFormatted}</div>
+
+					<div class="topic-title">
+						#{topic_title}
+					</div>
+					<!--<div class="topic-text">
+						{-short_content}
+					</div>-->
+
+</div>
+</div>
+</div>

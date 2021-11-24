@@ -1,0 +1,37 @@
+<div id="#{post_id}" name="post" class="palm-row topic-entry post-item" x-mojo-tap-highlight="momentary">
+	<div class="palm-row-wrapper">
+		<!--<div class="image-wrapper">
+<img class="edit-view-list-pic-square" src="{icon_url}" />
+<div class="edit-view-list-frame"></div>
+<div class="edit-view-shill-div"></div>
+			<!--<img class="avatar-overlay" width="42px" height="42px" src="images/list-view-avatar-frame.png" />
+			<img class="avatar-location" width="34px" height="34px" src="{icon_url}" />--
+		</div>-->
+<div class="edit-view-photo-container" title="author_avatar" x-mojo-tap-highlight="momentary">
+	<div class="edit-view-list-frame #{is_onlineFormatted}" title="author_avatar"></div>
+<img class="edit-view-list-pic-square" title="author_avatar" src="#{icon_url}" />
+<div class="edit-view-shill-div" title="author_avatar"></div>
+</div>
+		<div class="post-wrapper">
+
+<div class="topic-author">#{post_author_name}</div>
+<div class="topic-date">#{post_timeFormatted} [#{post_count}]
+	<!-- <div class="topic-date" style="float:right !important;" align="right"><span title="like_info">#{like_countFormatted}</span> <span title="thanks_info">#{thanks_infoFormatted}</span></div> -->
+	<div class="like-count-container" style="display:none;" title="like_info">#{like_countFormatted}</div>
+	<div class="thanks-count-container" style="display:none;" title="thanks_info"> #{thanks_infoFormatted}</div>
+	
+</div>
+
+					<div class="topic-title">
+						#{post_title}
+					</div>
+					<div class="topic-text-unformatted" #{textFormat}>
+						#{-post_content}
+					</div>
+					<div class="topic-text #{textFormat}">
+						#{-post_contentFormatted}
+					</div>
+
+</div>
+</div>
+</div>

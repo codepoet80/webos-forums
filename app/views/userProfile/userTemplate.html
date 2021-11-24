@@ -1,0 +1,41 @@
+<div id="#{user_id}" name="post" class="xpalm-row topic-entry post-item">
+	<div class="palm-row-wrapper">
+		<div class="edit-view-photo-container" title="author_avatar">
+			<div class="edit-view-list-frame #{is_onlineFormatted}" title="author_avatar"></div>
+		<img class="edit-view-list-pic-square" title="author_avatar" src="#{icon_url}" />
+		<div class="edit-view-shill-div" title="author_avatar"></div>
+		</div>
+
+		<div class="post-wrapper" style="margin-left: 50px;">
+			<div class="topic-author">#{username}#{user_name}</div>
+
+			<div class="topic-title">
+				#{display_text}&nbsp;
+			</div>
+		</div>
+
+		<div class="palm-group" style="margin-top:5px;">
+			<div class="palm-group-title"><span>Statistics</span></div>
+			<div id="statistics" style="line-height: 1.3em; padding-bottom: 0px !important;">
+				Member since: #{reg_timeFormatted} <br/>
+				Total posts: #{post_count}
+			</div>
+			<!--
+			<div id="actions" style="margin-top:8px;">
+				<span> Threads </span> <span> Posts </span> <span> PM </span> <span> +Contact </span><br/>
+				Find all posts by #{username}#{user_name}<br/>
+				Find all topics by #{username}#{user_name}<br/>
+				Send a message to #{username}#{user_name}
+			</div>
+			-->
+		</div>
+
+		<div class="palm-group">
+			<div class="palm-group-title"><span>Other Info</span></div>
+			<div id="customdata" class="topic-text" style="line-height: 1.3em; padding-bottom: 0px !important;">
+				None
+			</div>
+		</div>
+
+	</div>
+</div>

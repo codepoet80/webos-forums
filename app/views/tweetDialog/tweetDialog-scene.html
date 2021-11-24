@@ -1,0 +1,28 @@
+<div id="palm-dialog-content" class="palm-dialog-content">
+	<div id="title" class="palm-dialog-title">
+		New Tweet...
+	</div>
+	<div class="palm-dialog-separator"></div>
+				<div id="TweetTextRow" class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="false">				
+					<div class="title">
+						<!--<div class="label right" id="userLabel">User Name</div>-->
+		           		<div id="TweetText" name="textFieldTweetText" x-mojo-element="TextField" align="left" style="height: 140px;"></div>
+					</div>	
+					<div class="update-count-wrapper">
+						<div id="UpdateCount" name="UpdateCount">140</div>
+					</div>
+			    </div>
+				<div id="urlShortening" class="palm-row-wrapper" x-mojo-focus-highlight="false" style="display:none" >				
+					<div id="url" class="palm-body-text">
+						The url will be appended at the end of the Tweet.
+					</div>	
+			    </div>
+<div class="palm-inline-error" style="display:none" id="error_message">
+	<div id="error-message" class="error-message">Can't shorten url. The app will try to shorten it again before sending the tweet.</div>
+</div>
+
+</div>
+<div class="palm-dialog-buttons">
+	<div x-mojo-element="Button" id="doTweet">
+    </div>
+</div>

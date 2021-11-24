@@ -1,0 +1,56 @@
+<!--<div class="palm-row multi-line" x-mojo-tap-highlight="momentary">
+	<div class="palm-row-wrapper">
+		<div class="title left truncating-text">#{topic_title}</div>
+		<div class="subtitle">#{short_content}</div>
+	</div>
+</div>-->
+
+<!--<div id="{post_id}" class="palm-row topic-entry historyRow">
+	<div class="palm-row-wrapper">
+		<div class="topic-balloon" x-mojo-tap-highlight="momentary">
+			<div class="topic-balloon-wrapper">
+				<div class="image-wrapper #{show_user_image}">
+				<img class="avatar-location" width="34px" height="34px" src="{icon_url}" />
+				<img class="avatar-overlay" width="42px" height="42px" src="images/list-view-avatar-frame.png" />
+				</div>
+				<div class="title hide-unread-count" id="historyBageContainer#{post_id}">
+					<div class="im-name-info">
+						{topic_title}
+					</div>
+					<div class="post-text">
+						{-short_content}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>-->
+
+<div id="#{topic_id}" class="palm-row topic-entry #{new_postFormatted}" x-mojo-tap-highlight="momentary">
+	<div class="palm-row-wrapper">
+		<div class="image-wrapper">
+			<img class="avatar-location" width="34px" height="34px" src="#{icon_url}" />
+			<img class="avatar-overlay" width="42px" height="42px" src="images/list-view-avatar-frame.png" />
+		</div>
+		<div class="post-wrapper">
+					<div class="unread-count-container">
+						<div class="unread-count-wrapper">
+							#{reply_number}
+						</div>
+					</div>
+		<img src="images/secure-lock.png" class="topic-closed-image #{is_closedFormatted}"/>
+		<img src="images/star-silver.png" class="topic-subscribed-image #{is_subscribedFormatted}"/>
+<div class="topic-author">#{post_author_name}</div>
+<div class="topic-date">#{post_timeFormatted}</div>
+<div class="topic-forum"><img src="icon_16.png" style="vertical-align:middle;"/> #{forum_name}</div>
+
+					<div class="topic-title">
+						#{topic_title}
+					</div>
+					<div class="topic-text">
+						#{-short_content}
+					</div>
+
+</div>
+</div>
+</div>

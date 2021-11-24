@@ -1,0 +1,42 @@
+{
+	"id": "com.grabber.forums",
+	"version": "1.4.7",
+	"vendor": "Grabber Software, Newness Developments, Jonathan Wise",
+	"vendorUrl": "http://www.fordmaverick.com/GrabberSoftware",
+	"type": "web",
+	"main": "index.html",
+	"title": "Forums",
+	"uiRevision": "2",
+	"icon": "icon64_shadowed.png",
+	"smallicon": "icon_32.png",
+	"splashBackground": "images/splash.png",
+	"splashIcon": "icon256_shadowed.png",
+	"noWindow": "true",
+	"support": {
+		"url": "http://www.fordmaverick.com/GrabberSoftware",
+		"email": {
+			"address": "grabber.apps@gmail.com",
+			"subject": "- Support Request"
+		},
+		"resources": [
+			{
+			"type": "scene",
+			"label": "Release Notes",
+			"sceneName": "versions"
+			}
+		],
+		"forlater": [
+			{
+			"type": "web",
+			"label": "Twitter",
+			"url": "http://www.twitter.com/newnessdevs"
+			},
+			{
+			"type": "web",
+			"label": "Facebook",
+			"url": "http://www.facebook.com/pages/Newness-Developments/128934697158860"
+			}
+		]
+	}
+
+}

@@ -1,0 +1,46 @@
+<!--<div class="palm-row multi-line" x-mojo-tap-highlight="momentary">
+	<div class="palm-row-wrapper forums">
+		<div class="forumItem-image">{-logo_urlFormatted}</div>
+		<div class="forumItem-title">{forum_name}</div>
+		<div class="forumItem-description">{description}</div>
+		<div class="clear"></div>
+	</div>
+</div>
+-->
+<div id="#{forum_id}" class="palm-row forum-entry">
+	<div class="palm-row-wrapper">
+				<div class="forum-image-wrapper">
+					<img class="forum-image" src="#{-logo_urlFormatted}" />
+					#{-logo_urlFormatted}
+					<img class="forum-overlay" src="images/image-overlay.png" />
+				</div>
+
+		<div class="forum-balloon #{new_postFormatted}" x-mojo-tap-highlight="momentary">
+			<div class="forum-balloon-wrapper">
+				<div class="title" id="historyBageContainer#{topic_id}">
+					<div class="forum-name #{new_postFormatted}">
+						<img src="images/secure-lock.png" class="forum-closed-image #{is_closedFormatted}"/>
+						<div class="flags-container" style="border: 1px solid red;">
+						<img src="images/star-silver.png" class="forum-subscribed-image #{is_subscribedFormatted}"/>
+						<div class="unread-count-container">
+							<div class="unread-count-wrapper">
+								#{unread_count}
+							</div>
+						</div>
+					</div>
+						#{forum_id} #{forum_name}
+					</div>
+
+
+					<div class="forum-text">
+						#{-description}
+					</div>
+					test
+					<img src="images/external_link.png" class="forum_link"/>
+
+
+</div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,158 @@
+[
+    {"source": "app/models/updater-model.js"},
+    {"source": "app/models/application-menus.js"},
+    {"source": "app/models/bundled-forums.js"},
+    {"source": "app/javascripts/prototype.extensions.js"},
+    {"source": "app/javascripts/bbCode.js"},
+    {"source": "app/javascripts/bbCodeParserSettings.js"},
+    {"source": "app/javascripts/bbCodeParser.js"},
+    {"source": "app/javascripts/formatting.js"},
+    {"source": "app/javascripts/functions.js"},
+    {"source": "app/javascripts/bucketDateFormatter.js"},
+    {"source": "app/javascripts/webtoolkit.md5.js"},
+    {"source": "app/javascripts/webtoolkit.base64.js"},
+    {"source": "app/javascripts/webtoolkit.trim.js"},
+    {"source": "app/javascripts/webtoolkit.utf8.js"},
+    {"source": "app/javascripts/webtoolkit.url.js"},
+    {"source": "app/javascripts/AES.js"},
+    {"source": "app/javascripts/xmlrpc.js"},
+    {"source": "app/javascripts/xmlrpc_gallery.js"},
+    {"source": "app/javascripts/parseURI.js"},
+    {"source": "app/javascripts/forumFunctions.js"},
+    {"source": "app/javascripts/admob.js"},
+    {"source": "app/javascripts/social.js"},
+    {"source": "app/javascripts/sha1.js"},
+    {"source": "app/javascripts/oauth.js"},
+    {"source": "app/javascripts/bit.ly.js"},
+    {"source": "app/classes/asyncModules.js"},
+    {"source": "app/classes/webos.database.js"},
+    {"source": "app/classes/webos.cookie.js"},
+    {"source": "app/classes/asyncWrappers.js"},
+    {"source": "app/classes/tapatalk.connectionManager.js"},
+    {"source": "app/classes/tapatalk.forum.api.js"},
+    {"source": "app/classes/tapatalk.post.api.js"},
+    {"source": "app/classes/tapatalk.privateMessage.api.js"},
+    {"source": "app/classes/tapatalk.search.api.js"},
+    {"source": "app/classes/tapatalk.subscription.api.js"},
+    {"source": "app/classes/tapatalk.social.api.js"},
+    {"source": "app/classes/tapatalk.topic.api.js"},
+    {"source": "app/classes/tapatalk.user.api.js"},
+    {"source": "app/classes/tapatalk.api.js"},
+    {"source": "app/classes/tapatalk.addon.others.js"},
+    {"source": "app/classes/tapatalk.gallery.js"},
+    {"source": "app/classes/tapatalk.checker.js"},
+    {"source": "app/assistants/userForumSetupDialog-assistant.js"},
+    {"source": "app/assistants/userForumSetupCredentialsDialog-assistant.js"},
+    {"source": "app/assistants/tweetDialog-assistant.js"},
+    {"source": "app/assistants/goToPageDialog-assistant.js"},
+    {"source": "app/models/application-settings.js"},
+    {"source": "app/assistants/stage-assistant.js"},
+    {"source": "app/assistants/app-assistant.js"},
+    {
+        "scenes": "main",
+        "source": "app/assistants/main-assistant.js"
+    },
+    {
+        "scenes": "forums",
+        "source": "app/assistants/forums-assistant.js"
+    },
+    {
+        "scenes": "childForum",
+        "source": "app/assistants/childForum_v2-assistant.js"
+    },
+    {
+        "scenes": "topic",
+        "source": "app/assistants/topic_v2-assistant.js"
+    },
+    {
+        "scenes": "newPost",
+        "source": "app/assistants/newPost-assistant.js"
+    },
+    {
+        "scenes": "newmessage",
+        "source": "app/assistants/newmessage-assistant.js"
+    },
+    {
+        "scenes": "noConnection",
+        "source": "app/assistants/noConnection-assistant.js"
+    },
+    {
+        "scenes": "userForumSettings",
+        "source": "app/assistants/userForumSettings-assistant.js"
+    },
+    {
+        "scenes": "forumLoader",
+        "source": "app/assistants/forumLoader-assistant.js"
+    },
+    {
+        "scenes": "recentPosts",
+        "source": "app/assistants/recentPosts_v2-assistant.js"
+    },
+    {
+        "scenes": "subscribedPosts",
+        "source": "app/assistants/subscribedPosts_v2-assistant.js"
+    },
+    {
+        "scenes": "preferences",
+        "source": "app/assistants/preferences-assistant.js"
+    },
+    {
+        "scenes": "search",
+        "source": "app/assistants/search-assistant.js"
+    },
+    {
+        "scenes": "messages",
+        "source": "app/assistants/messages-assistant.js"
+    },
+    {
+        "scenes": "galleryForums",
+        "source": "app/assistants/galleryForums-assistant.js"
+    },
+    {
+        "scenes": "galleryHome",
+        "source": "app/assistants/galleryHome-assistant.js"
+    },
+    {
+        "scenes": "galleryChild",
+        "source": "app/assistants/galleryChild-assistant.js"
+    },
+    {
+        "scenes": "gallerySearch",
+        "source": "app/assistants/gallerySearch-assistant.js"
+    },
+    {
+        "scenes": "galleryNewForums",
+        "source": "app/assistants/galleryNewForums-assistant.js"
+    },
+    {
+        "scenes": "galleryHistory",
+        "source": "app/assistants/galleryHistory-assistant.js"
+    },
+    {
+        "scenes": "messageDetail",
+        "source": "app/assistants/messageDetail-assistant.js"
+    },
+    {
+        "scenes": "messageEdit",
+        "source": "app/assistants/messageEdit-assistant.js"
+    },
+    {
+        "scenes": "helpPage",
+        "source": "app/assistants/helpPage-assistant.js"
+    },
+    {
+        "scenes": "versions",
+        "source": "app/assistants/versions-assistant.js"
+    },
+    {
+        "scenes": "userProfile",
+        "source": "app/assistants/userProfile-assistant.js"
+    },
+    {
+        "scenes": "imageViewer",
+        "source": "app/assistants/imageViewer-assistant.js"
+    },
+    {
+        "scenes": "social-authorizacion",
+        "source": "app/assistants/social-authorizacion-assistant.js"
+    }]
