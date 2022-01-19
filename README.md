@@ -1,6 +1,6 @@
 # webos-forums
 
-![App Icon](icon.png)
+![App Icon](icon_48.png)
 
 Original code by Newness and Grabber 5.0.
 
