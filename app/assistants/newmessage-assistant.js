@@ -304,7 +304,7 @@ NewmessageAssistant.prototype.setup = function() {
 	 }
 */
 
-	//Added by Jonathan Wise 6/7/2021
+	//Added by Jon W 6/7/2021
 	this.appMenuModel = {
 		visible: true,
 		items: [

@@ -58,7 +58,7 @@ RecentPostsAssistant.prototype.setup = function() {
 				MenuData.ApplicationMenu.PrivateMessages
 				]
 			},
-			MenuData.ApplicationMenu.GoBack, 	//Added by Jonathan Wise 11/14/2020
+			MenuData.ApplicationMenu.GoBack, 	//Added by Jon W 11/14/2020
 			MenuData.ApplicationMenu.NewCard,
 			MenuData.ApplicationMenu.Preferences,
 			MenuData.ApplicationMenu.Support,
@@ -104,7 +104,7 @@ if (!appSettings.Tapatalk.config.api_level) {
 				MenuData.ApplicationMenu.PrivateMessages
 				]
 			},
-			MenuData.ApplicationMenu.GoBack, 	//Added by Jonathan Wise 11/14/2020
+			MenuData.ApplicationMenu.GoBack, 	//Added by Jon W 11/14/2020
 			MenuData.ApplicationMenu.Login,
 			MenuData.ApplicationMenu.NewCard,
 			MenuData.ApplicationMenu.Preferences,

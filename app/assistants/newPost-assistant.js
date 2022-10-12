@@ -94,7 +94,7 @@ NewPostAssistant.prototype.setup = function() {
 	//this.controller.get("forum-name").innerHTML = appSettings.currentForum.name;
 	this.controller.get("forum-image-small").src = appSettings.currentForum.logo;
 
-	//Added by Jonathan Wise 6/7/2021
+	//Added by Jon W 6/7/2021
 	this.appMenuModel = {
 		visible: true,
 		items: [

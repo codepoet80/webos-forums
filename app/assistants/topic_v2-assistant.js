@@ -151,7 +151,7 @@ TopicAssistant.prototype.setup = function() {
 				items: [MenuData.ApplicationMenu.GoBack, MenuData.ApplicationMenu.Login, MenuData.ApplicationMenu.NewCard, MenuData.ApplicationMenu.Preferences, MenuData.ApplicationMenu.Support, MenuData.ApplicationMenu.Help]
 			};
 		}
-		//GoBack Added in both conditions by Jonathan Wise 11/14/2020
+		//GoBack Added in both conditions by Jon W 11/14/2020
 
 		this.controller.setupWidget(Mojo.Menu.appMenu, {
 			omitDefaultItems: true

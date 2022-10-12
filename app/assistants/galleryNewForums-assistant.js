@@ -43,7 +43,7 @@ GalleryNewForumsAssistant.prototype.setup = function() {
 		this.appMenuModel = {
 		visible: true,
 		items: [
-			MenuData.ApplicationMenu.GoBack, 	//Added by Jonathan Wise 11/14/2020
+			MenuData.ApplicationMenu.GoBack, 	//Added by Jon W 11/14/2020
 			MenuData.ApplicationMenu.NewCard,
 			MenuData.ApplicationMenu.Preferences,
 			MenuData.ApplicationMenu.Support,

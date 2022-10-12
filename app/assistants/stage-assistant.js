@@ -219,7 +219,7 @@ StageAssistant.prototype.handleCommand = function(event) {
 			case Mojo.Event.command:
 				Mojo.Log.info("StageAsst.handleCommand(), event type,command: ", event.type + "," + event.command);
 				switch (event.command) {
-					//Added by Jonathan Wise 11/14/2020
+					//Added by Jon W 11/14/2020
 					case "doGoBack":
 						Mojo.Controller.stageController.popScene();
 						break;
@@ -354,7 +354,7 @@ StageAssistant.prototype.handleCommand = function(event) {
 							transition: Mojo.Transition.crossFade
 						});
 						break;
-					//Added by Jonathan Wise, 11/14/2020
+					//Added by Jon W, 11/14/2020
 					case "go-back":
 						this.controller.stageController.popScene();
 						break;

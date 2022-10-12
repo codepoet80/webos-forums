@@ -23,7 +23,7 @@ function formatMainAppMenus(inShowLogout) {
 			]
 	};
 
-	appMenuModel.items.push(MenuData.ApplicationMenu.GoBack);	//Added by Jonathan Wise 11/14/2020
+	appMenuModel.items.push(MenuData.ApplicationMenu.GoBack);	//Added by Jon W 11/14/2020
 
 	if (!appSettings.Tapatalk.loggedIn) {
 		appMenuModel.items.push(MenuData.ApplicationMenu.Login);

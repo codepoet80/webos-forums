@@ -80,7 +80,7 @@ MainAssistant.prototype.setup = function() {
 	this.appMenuModel = {
 		visible : true,
 		items : [MenuData.ApplicationMenu.GoBack, MenuData.ApplicationMenu.NewCard, MenuData.ApplicationMenu.Preferences, MenuData.ApplicationMenu.Support, MenuData.ApplicationMenu.Help]
-	};//GoBack Added by Jonathan Wise 11/14/2020, 
+	};//GoBack Added by Jon W 11/14/2020, 
 
 	this.controller.setupWidget(Mojo.Menu.appMenu, {
 		omitDefaultItems : true

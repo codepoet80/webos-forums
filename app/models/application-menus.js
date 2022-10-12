@@ -73,7 +73,7 @@ MenuData.ApplicationMenu = {
 		command: 'show-support-cmd',
 		checkEnabled: true
 	},
-	//Added by Jonathan Wise, 11/14/2020
+	//Added by Jon W, 11/14/2020
 	GoBack: {
 		label: $L("Go Back"),
 		command: "doGoBack"
